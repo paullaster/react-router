@@ -4,7 +4,7 @@ const About = () => {
         <div>
            <h1> About Paullaster Okoth</h1>
            <div>
-        <Link to="/about">About me</Link>
+        <Link to="/">Back home</Link>
       </div>
       <div>
         <Link to="/contact">Contact me</Link>
