@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Error = () => {
     return (
         <div>
@@ -5,6 +7,9 @@ const Error = () => {
             <p>
                 Pae not found.
             </p>
+            <div>
+                <Link to="/">Back home</Link>
+            </div>
         </div>
     );
 };
