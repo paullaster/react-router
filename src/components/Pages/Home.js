@@ -1,14 +1,9 @@
-import { Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 const Home = () => {
   return (
     <div>
       Welcom to React Router Further research Home page
-      <div>
-        <Link to="/about">About me</Link>
-      </div>
-      <div>
-        <Link to="/contact">Contact me</Link>
-      </div>
+      <Outlet/>
     </div>
   );
 };
