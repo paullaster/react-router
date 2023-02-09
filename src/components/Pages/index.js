@@ -7,4 +7,5 @@ export  {
     Home,
     About,
     Contact,
+    Error,
 };
