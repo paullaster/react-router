@@ -1,4 +1,8 @@
 const About = () => {
-    return();
+    return(
+        <div>
+            About Paullaster Okoth
+        </div>
+    );
 };
 export default About;
