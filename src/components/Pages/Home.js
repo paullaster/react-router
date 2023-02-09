@@ -6,6 +6,9 @@ const Home = () => {
       <div>
         <Link to="/about">About me</Link>
       </div>
+      <div>
+        <Link to="/contact">Contact me</Link>
+      </div>
     </div>
   );
 };
