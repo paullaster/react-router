@@ -2,9 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 const App = () =>{
 
   return (
-    <div>
-      Further reading and practise on react routers
-    </div>
+    <BrowserRouter>
+    
+    </BrowserRouter>
   );
 }
 export default App;
