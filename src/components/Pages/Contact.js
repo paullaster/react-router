@@ -4,10 +4,10 @@ const Contact = () => {
         <div>
             <h4> Holla me</h4>
             <div>
-        <Link to="/about">About me</Link>
+        <Link to="/">Back  home</Link>
       </div>
       <div>
-        <Link to="/contact">Contact me</Link>
+        <Link to="/contact">About me</Link>
       </div>
         </div>
     );
