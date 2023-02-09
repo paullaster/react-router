@@ -7,7 +7,7 @@ const Contact = () => {
         <Link to="/">Back  home</Link>
       </div>
       <div>
-        <Link to="/contact">About me</Link>
+        <Link to="/about">About me</Link>
       </div>
         </div>
     );
