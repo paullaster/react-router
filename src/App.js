@@ -2,7 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
   Home,
   About,
-  Contact
+  Contact,
+  Error
 } from "./components/Pages";
 const App = () =>{
 
