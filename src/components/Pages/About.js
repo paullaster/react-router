@@ -1,7 +1,14 @@
+import { Link } from "react-router-dom";
 const About = () => {
     return(
         <div>
            <h1> About Paullaster Okoth</h1>
+           <div>
+        <Link to="/about">About me</Link>
+      </div>
+      <div>
+        <Link to="/contact">Contact me</Link>
+      </div>
         </div>
     );
 };
