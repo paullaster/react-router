@@ -1,10 +1,14 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "../Navbar";
 const Home = () => {
   return (
-    <div>
-      Welcom to React Router Further research Home page
-      <Outlet/>
-    </div>
+    <>
+      <Navbar/>
+      <section>
+        <Outlet/>
+      </section>
+    </>
+    
   );
 };
 export default Home;
