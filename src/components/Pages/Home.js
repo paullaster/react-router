@@ -5,9 +5,6 @@ const Home = () => {
   return (
     <>
       <Navbar/>
-      <div>
-        some content home
-      </div>
       <section>
         <Outlet/>
       </section>
