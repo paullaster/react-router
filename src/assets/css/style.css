@@ -25,4 +25,5 @@
   }
   .input-group {
     display: flex !important;
+    flex-direction: column !important;
   }
