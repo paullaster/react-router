@@ -5,6 +5,7 @@ import { Home, About, Contact, Error, SharedLayout, Users,
 const App = () => {
 
   const [user, setUser] = useState({});
+  console.log(user);
   return (
     <BrowserRouter>
       <Routes>
