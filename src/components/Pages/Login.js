@@ -18,7 +18,7 @@ const Login = ({setUser}) => {
             password
         });
         console.log (setUser)
-        //navigate('/dashboard');
+        navigate('/dashboard');
     };
 
   return (
