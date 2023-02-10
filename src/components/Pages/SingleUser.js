@@ -17,7 +17,7 @@ function SingleUser() {
             </span>
             <span>
                 {
-                    user.profession.map((profession) => {
+                    user.Professions.map((profession) => {
                         return (
                             <li key={profession}>
                                 {profession}
