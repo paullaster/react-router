@@ -4,6 +4,7 @@ import Contact from "./Contact";
 import Error from "./Error";
 import SharedLayout from "./SharedLayout";
 import Users from "./Users";
+import SingleUser from "./SingleUser";
 
 export  {
     Home,
@@ -12,4 +13,5 @@ export  {
     Error,
     SharedLayout,
     Users,
+    SingleUser,
 };
