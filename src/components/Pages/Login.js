@@ -17,7 +17,6 @@ const Login = ({setUser}) => {
             userName,
             password
         });
-        console.log (setUser)
         navigate('/dashboard');
     };
 
