@@ -11,8 +11,10 @@ const App = () => {
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="users" element={<Users />} />
-          <Route path="users/:userId" element={<SingleUser />} />
+          <Route path="users" element={<Users />}>
+            <Route path="users/:userId" element={<SingleUser />} />
+          </Route>
+          
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
           <Route path="login" element={<Login setUser={setUser}/>} />
