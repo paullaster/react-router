@@ -6,6 +6,7 @@ import SharedLayout from "./SharedLayout";
 import Users from "./Users";
 import SingleUser from "./SingleUser";
 import Login from "./Login";
+import Dashboard from "./Dashboard";
 
 export  {
     Home,
