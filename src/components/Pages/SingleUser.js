@@ -4,10 +4,12 @@ function SingleUser() {
     const {userId} = useParams();
   return (
     <>
-        <span>
-            userId: {userId}
-        </span>
-        
+        <div>
+            <span>
+                userId: {userId}
+            </span>
+        </div>
+
     </>
   )
 }
