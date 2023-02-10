@@ -10,7 +10,10 @@ const Login = ({setUser}) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!userName || !password) return;
-        
+        setUser ({
+            userName,
+            password
+        })
         console.log (userName, password);
     };
 
