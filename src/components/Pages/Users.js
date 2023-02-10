@@ -7,7 +7,7 @@ const Users = () => {
   return (
    <div>
     {
-        users.map(({id, name, age, Image, profession, country}) =>{
+        users.map(({id, name, age, image, profession, country}) =>{
             return(
                 <li key={id}>
                     <span>
