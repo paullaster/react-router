@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home, About, Contact, Error, SharedLayout, Users, SingleUser, Login } from "./components/Pages";
 const App = () => {
 
+  const [user, setUser] = useState({})
   return (
     <BrowserRouter>
       <Routes>
