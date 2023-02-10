@@ -4,7 +4,7 @@ import { Home, About, Contact, Error, SharedLayout, Users,
   SingleUser, Login, Dashboard} from "./components/Pages";
 const App = () => {
 
-  const [user, setUser] = useState({});
+  const [user, setUser] = useState("");
   console.log(user);
   return (
     <BrowserRouter>
