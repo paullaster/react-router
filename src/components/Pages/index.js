@@ -15,4 +15,5 @@ export  {
     SharedLayout,
     Users,
     SingleUser,
+    Login,
 };
