@@ -18,7 +18,7 @@ const App = () => {
           <Route path="login" element={<Login setUser={setUser}/>} />
           <Route path="dashboard" element={
             <ProtectedRoute user={user}>
-              <Dashboard />
+              <Dashboard user={user}/>
             </ProtectedRoute>
           } />
         </Route>
