@@ -1,5 +1,5 @@
 import React from 'react'
-import Users from '../../data'
+import users from '../../data'
 
 const Users = () => {
   return (
