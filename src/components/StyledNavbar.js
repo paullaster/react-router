@@ -36,7 +36,7 @@ function StyledNavbar() {
         }
         >Contact</NavLink>
         <NavLink 
-        to='/contact'
+        to='/login'
         className={
             ({isActive}) => {
                 return isActive ? 'active' : 'link'
