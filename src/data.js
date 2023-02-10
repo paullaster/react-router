@@ -18,7 +18,7 @@ export const Users = [
             "Android Developer",
         ],
         id: uuid(),
-        email:'isEdu@gmail.com',
+        email:'isedu@gmail.com',
         age: 26,
         country: 'Kenya',
         language: 'English',
