@@ -9,7 +9,7 @@ function StyledNavbar() {
         to='/'
         className={
             ({isActive}) => {
-                return isActive ? 'link active' : 'link'
+                return isActive ? 'active' : 'link'
             }
         }
         >Home</NavLink>
