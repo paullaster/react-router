@@ -6,6 +6,11 @@ function StyledNavbar() {
     <nav>
         <NavLink 
         to='/'
+        className={
+            ({isActive}) => {
+                return isActive ? 'link active' : 'link'
+            }
+        }
         >Home</NavLink>
         <NavLink to='/about'>About</NavLink>
         <NavLink to='/contact'>Contact</NavLink>
