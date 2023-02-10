@@ -9,7 +9,12 @@ const Users = () => {
         users.map(({id, name, age, image, profession, country}) =>{
             return(
                 <li key={id}>
-
+                    <span>
+                        {name}
+                    </span>
+                    <span>
+                        <img src={image} alt={image}/>
+                    </span>
                 </li>
             )
         })
