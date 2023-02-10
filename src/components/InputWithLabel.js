@@ -8,7 +8,7 @@ const InputWithLabel = ({setInputValue, type='text', children}) => {
     <div className='input-group'>
         <label>
             {children}
-            <input type={type} onChange={setInputValue}/>
+            <input type={type} onChange={handleOnChange}/>
         </label>
     </div>
   )
