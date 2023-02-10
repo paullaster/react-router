@@ -4,7 +4,11 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 function SharedLayout() {
   return (
-    <div>SharedLayout</div>
+    <Navbar/>
+      <section>
+        <Outlet/>
+      </section>
+      <Footer />
   )
 }
 

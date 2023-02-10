@@ -2,11 +2,7 @@
 const Home = () => {
   return (
     <>
-      <Navbar/>
-      <section>
-        <Outlet/>
-      </section>
-      <Footer />
+      
     </>
     
   );
