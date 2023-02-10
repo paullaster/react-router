@@ -1,6 +1,8 @@
+import React, {useState} from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home, About, Contact, Error, SharedLayout, Users, SingleUser, Login } from "./components/Pages";
 const App = () => {
+
   return (
     <BrowserRouter>
       <Routes>
