@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, About, Contact, Error, SharedLayout, Users } from "./components/Pages";
+import { Home, About, Contact, Error, SharedLayout, Users, SingleUser } from "./components/Pages";
 const App = () => {
   return (
     <BrowserRouter>
