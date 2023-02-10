@@ -15,6 +15,10 @@ const Users = () => {
                     <span>
                         <img src={image} alt={image}/>
                     </span>
+                    <span>
+                        {country}
+                    </span>
+                    
                 </li>
             )
         })
