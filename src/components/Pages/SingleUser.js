@@ -13,7 +13,7 @@ function SingleUser() {
                 {user.name}
             </span>
             <span>
-                <img src={image} alt={image} />
+                <img src={user.image} alt={user.image} />
             </span>
             <span>
                 {
