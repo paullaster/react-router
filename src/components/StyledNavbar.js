@@ -13,8 +13,21 @@ function StyledNavbar() {
             }
         }
         >Home</NavLink>
-        <NavLink to='/about'>About</NavLink>
-        <NavLink to='/contact'>Contact</NavLink>
+        <NavLink 
+        to='/about'
+        className={
+            ({isActive}) => {
+                return isActive ? 'active' : 'link'
+            }
+        }>About</NavLink>
+        <NavLink 
+        to='/contact'
+        className={
+            ({isActive}) => {
+                return isActive ? 'active' : 'link'
+            }
+        }
+        >Contact</NavLink>
     </nav>
   )
 }
