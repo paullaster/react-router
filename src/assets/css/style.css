@@ -18,6 +18,7 @@
   nav{
     display: flex !important;
     flex-direction: row !important;
+    justify-content: space-around;
   }
   a{
     text-decoration: none !important;
