@@ -1,5 +1,5 @@
 import  uuid from "uuidv4"
-export const users = [
+const users = [
     {
         name: 'Paullaster Okoth',
         Professions: [
@@ -26,3 +26,4 @@ export const users = [
     },
 
 ];
+export default users;
