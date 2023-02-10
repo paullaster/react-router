@@ -16,7 +16,11 @@ const App = () => {
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
           <Route path="login" element={<Login setUser={setUser}/>} />
-          <Route path="dashboard" element={<Dashboard user={user}/>} />
+          <Route path="dashboard" element={
+            <ProtectedRoute user={user}>
+              <Dashboard />
+            </ProtectedRoute>
+          } />
         </Route>
       </Routes>
     </BrowserRouter>
