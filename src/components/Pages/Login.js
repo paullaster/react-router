@@ -13,7 +13,7 @@ const Login = () => {
     };
 
   return (
-    <Form>
+    <Form handleSubmit={handleSubmit}>
         <InputWithLabel>Username</InputWithLabel>
         <InputWithLabel type='password'>Password</InputWithLabel>
         <Button type='submit'>Login</Button>
