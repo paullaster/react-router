@@ -3,7 +3,7 @@ import Form from '../Form';
 import InputWithLabel from '../InputWithLabel';
 import Button from '../Button';
 
-const Login = () => {
+const Login = ({setUser}) => {
     const [userName, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
