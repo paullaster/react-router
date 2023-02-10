@@ -9,6 +9,9 @@ function SingleUser() {
                 userId: {userId}
             </span>
         </div>
+        <div>
+            <Link to='/Users'>Back to users</Link> 
+        </div>
 
     </>
   )
