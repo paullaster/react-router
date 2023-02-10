@@ -7,6 +7,7 @@ import Users from "./Users";
 import SingleUser from "./SingleUser";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
+import ProtectedRoute from "./ProtectedRoute";
 
 export  {
     Home,
@@ -18,4 +19,5 @@ export  {
     SingleUser,
     Login,
     Dashboard,
+    ProtectedRoute,
 };
