@@ -14,8 +14,8 @@ const Login = () => {
 
   return (
     <Form handleSubmit={handleSubmit}>
-        <InputWithLabel>Username</InputWithLabel>
-        <InputWithLabel type='password'>Password</InputWithLabel>
+        <InputWithLabel setUsername={setUsername}>Username</InputWithLabel>
+        <InputWithLabel type='password' setPassword={setPassword}>Password</InputWithLabel>
         <Button type='submit'>Login</Button>
     </Form>
   )
