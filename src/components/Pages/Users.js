@@ -1,6 +1,6 @@
 import React from 'react'
 import users from '../../data'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import '../../assets/css/style.css'
 
 const Users = () => {
@@ -25,6 +25,10 @@ const Users = () => {
             )
         })
     }
+
+    <section>
+        <Outlet />
+    </section>
    </div>
   )
 }
