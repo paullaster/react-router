@@ -3,6 +3,9 @@ import { Link, useParams } from 'react-router-dom'
 import users from '../../data'
 function SingleUser() {
     const {userId} = useParams();
+    const user = users.find( (user) => {
+        return users.id === userId
+    })
   return (
     <>
         <div>
