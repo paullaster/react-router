@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-const UserPage = ({users}) => {
+import users from '../../data'
+import '../../assets/css/style.css'
+const UserPage = () => {
   return (
     <div>
     {

@@ -12,6 +12,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="users" element={<Users />}>
+            <Route index="users" element={<UserPage />} />
             <Route path=":userId" element={<SingleUser />} />
           </Route>
           
