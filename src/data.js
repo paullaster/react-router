@@ -1,11 +1,11 @@
-import  uuidv4 from "uuidv4"
+import  {uuid} from "uuidv4"
 const users = [
     {
         name: 'Paullaster Okoth',
         Professions: [
             "Software Engineer",
         ],
-        id: uuidv4(),
+        id: uuid(),
         email:'ispaullaster@gmail.com',
         age: 26,
         country: 'Kenya',
@@ -17,7 +17,7 @@ const users = [
         Professions: [
             "Android Developer",
         ],
-        id: uuidv4(),
+        id: uuid(),
         email:'isedu@gmail.com',
         age: 26,
         country: 'Kenya',
