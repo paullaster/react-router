@@ -5,3 +5,6 @@
     color: rgb(17, 17, 3) !important;
     text-decoration: none !important;
   }
+  span{
+    display: block;
+  }
