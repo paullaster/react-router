@@ -8,14 +8,14 @@ function SingleUser() {
     
   return (
     <>
-        {/* <div>
+        <div>
             <span>
                 {name}
             </span>
             <span>
                 <img src={image} alt={image} />
-            </span> */}
-            {/* <span>
+            </span>
+            <span>
                 {
                     profession.map((profession) => {
                         return (
@@ -25,8 +25,8 @@ function SingleUser() {
                         )
                     })
                 }
-            </span> */}
-            {/* <span>
+            </span>
+            <span>
                 age: {age}
             </span>
             <span>
@@ -35,7 +35,7 @@ function SingleUser() {
             <span>
                 language: {language}
             </span>
-        </div> */}
+        </div>
         <div>
             <Link to='/users'>Back to users</Link> 
         </div>
