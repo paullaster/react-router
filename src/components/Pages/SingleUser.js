@@ -10,7 +10,7 @@ function SingleUser() {
             </span>
         </div>
         <div>
-            <Link to='/Users'>Back to users</Link> 
+            <Link to='/users'>Back to users</Link> 
         </div>
 
     </>
