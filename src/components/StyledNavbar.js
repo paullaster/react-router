@@ -21,7 +21,7 @@ function StyledNavbar() {
             }
         }>About</NavLink>
         <NavLink 
-        to='/about'
+        to='/users'
         className={
             ({isActive}) => {
                 return isActive ? 'active' : 'link'
