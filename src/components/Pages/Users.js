@@ -1,6 +1,7 @@
 import React from 'react'
+import Users from '../../data'
 
-function Users() {
+const Users = () => {
   return (
     <div>Users</div>
   )
