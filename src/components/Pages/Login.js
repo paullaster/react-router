@@ -9,12 +9,12 @@ const Login = ({setUser}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(userName, password);
+        
     };
 
   return (
     <Form handleSubmit={handleSubmit}>
-        <InputWithLabel setInputValue={setUsername}>Username</InputWithLabel>
+        <InputWithLabel type='email' setInputValue={setUsername}>Username</InputWithLabel>
         <InputWithLabel type='password' setInputValue={setPassword}>Password</InputWithLabel>
         <Button type='submit'>Login</Button>
     </Form>
