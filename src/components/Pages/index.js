@@ -17,4 +17,5 @@ export  {
     Users,
     SingleUser,
     Login,
+    Dashboard,
 };
