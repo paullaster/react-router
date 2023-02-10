@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = ({handleSubmit, children}) => {
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
         {children}
     </form>
   )
