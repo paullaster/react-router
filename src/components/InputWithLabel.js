@@ -1,11 +1,11 @@
 import React from 'react'
 
-const InputWithLabel = ({type='text', children}) => {
+const InputWithLabel = ({setInputValue, type='text', children}) => {
   return (
     <div className='input-group'>
         <label>
             {children}
-            <input type={type}/>
+            <input type={type} onChange={setInputValue}/>
         </label>
     </div>
   )
