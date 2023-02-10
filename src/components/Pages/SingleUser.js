@@ -5,7 +5,7 @@ function SingleUser() {
     const {userId} = useParams();
     const user = users.find( (user) => {
         return user.id === userId
-    })
+    });
   return (
     <>
         <div>
