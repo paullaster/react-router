@@ -9,7 +9,7 @@ const Login = ({setUser}) => {
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
 
-    console.log (setUser)
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!userName || !password) return;
@@ -17,7 +17,8 @@ const Login = ({setUser}) => {
             userName,
             password
         });
-        navigate('/dashboard');
+        console.log (setUser)
+        //navigate('/dashboard');
     };
 
   return (
