@@ -17,7 +17,7 @@ function SingleUser() {
             </span>
             <span>
                 {
-                    profession.map((profession) => {
+                    user.profession.map((profession) => {
                         return (
                             <li key={profession}>
                                 {profession}
@@ -27,13 +27,13 @@ function SingleUser() {
                 }
             </span>
             <span>
-                age: {age}
+                age: {user.age}
             </span>
             <span>
-                country: {country}
+                country: {user.country}
             </span>
             <span>
-                language: {language}
+                language: {user.language}
             </span>
         </div>
         <div>
