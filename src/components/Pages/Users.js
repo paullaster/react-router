@@ -7,14 +7,14 @@ const Users = () => {
   return (
    <div>
     {
-        users.map(({id, name, age, image, profession, country}) =>{
+        users.map(({id, name, age, Image, profession, country}) =>{
             return(
                 <li key={id}>
                     <span>
                         {name}
                     </span>
                     <span>
-                        <img src={image} alt={image}/>
+                        {image}
                     </span>
                     <span>
                         {country}
