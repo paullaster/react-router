@@ -11,7 +11,7 @@ const Login = () => {
     <Form>
         <InputWithLabel>Username</InputWithLabel>
         <InputWithLabel type='password'>Password</InputWithLabel>
-        <Button>Login</Button>
+        <Button type='submit'>Login</Button>
     </Form>
   )
 }
