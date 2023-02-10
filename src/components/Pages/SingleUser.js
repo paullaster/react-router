@@ -15,7 +15,7 @@ function SingleUser() {
             <span>
                 <img src={user.image} alt={user.image} />
             </span>
-            {/* <span>
+            <span>
                 {
                     user.profession.map((profession) => {
                         return (
@@ -25,7 +25,7 @@ function SingleUser() {
                         )
                     })
                 }
-            </span> */}
+            </span>
             <span>
                 age: {user.age}
             </span>
