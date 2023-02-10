@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import users from '../../data'
+import '../../assets/css/style.css'
 function SingleUser() {
     const {userId} = useParams();
-    const {name, image, profession, age, language, country} = users.find( (user) => {
+    const {name, image, profession, age, language, country} 
+    = users.find( (user) => {
         return user.id === userId
     });
   return (
