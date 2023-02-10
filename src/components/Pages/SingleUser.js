@@ -14,6 +14,9 @@ function SingleUser() {
             <span>
                 {name}
             </span>
+            <span>
+                <img src={image} alt={image} />
+            </span>
         </div>
         <div>
             <Link to='/users'>Back to users</Link> 
