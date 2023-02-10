@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, About, Contact, Error, SharedLayout, Users, SingleUser, Login } from "./components/Pages";
+import { Home, About, Contact, Error, SharedLayout, Users, 
+  SingleUser, Login, Dashboard} from "./components/Pages";
 const App = () => {
 
   const [user, setUser] = useState({})
