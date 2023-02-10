@@ -1,5 +1,6 @@
 import React from 'react'
 import users from '../../data'
+import { Link } from 'react-router-dom'
 
 const Users = () => {
 
@@ -18,7 +19,7 @@ const Users = () => {
                     <span>
                         {country}
                     </span>
-                    
+                    <Link to={`users/${id}`}
                 </li>
             )
         })
