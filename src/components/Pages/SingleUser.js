@@ -5,7 +5,7 @@ import '../../assets/css/style.css'
 function SingleUser() {
     const {userId} = useParams();
     const user = users.find( (u) => u.id === Number(userId))
-    console.log(user)
+    
   return (
     <>
         <div>
