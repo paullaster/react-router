@@ -23,7 +23,4 @@
   a{
     text-decoration: none !important;
   }
-  .input-group {
-    display: flex !important;
-    flex-direction: column !important;
-  }
+  
