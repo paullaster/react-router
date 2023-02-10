@@ -5,7 +5,11 @@ const Users = () => {
 
   return (
    <div>
-    
+    {
+        users.map((user) =>{
+
+        })
+    }
    </div>
   )
 }
