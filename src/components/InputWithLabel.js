@@ -2,7 +2,7 @@ import React from 'react'
 
 const InputWithLabel = ({type='text', children}) => {
   return (
-    <div>
+    <div className='input-group'>
         <label>
             {children}
             <input type={type}/>
