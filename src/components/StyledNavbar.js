@@ -21,6 +21,13 @@ function StyledNavbar() {
             }
         }>About</NavLink>
         <NavLink 
+        to='/about'
+        className={
+            ({isActive}) => {
+                return isActive ? 'active' : 'link'
+            }
+        }>Users</NavLink>
+        <NavLink 
         to='/contact'
         className={
             ({isActive}) => {
