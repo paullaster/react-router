@@ -4,6 +4,7 @@ const InputWithLabel = ({children}) => {
   return (
     <div>
         <label>
+            {children}
             
         </label>
     </div>
