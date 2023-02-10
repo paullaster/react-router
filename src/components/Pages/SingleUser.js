@@ -5,8 +5,9 @@ function SingleUser() {
   return (
     <>
         <span>
-            userId: {}
+            userId: {userId}
         </span>
+        
     </>
   )
 }
