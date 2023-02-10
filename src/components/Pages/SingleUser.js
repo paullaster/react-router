@@ -17,6 +17,11 @@ function SingleUser() {
             <span>
                 <img src={image} alt={image} />
             </span>
+            <span>
+                {
+                    profession.map((profession) => {})
+                }
+            </span>
         </div>
         <div>
             <Link to='/users'>Back to users</Link> 
