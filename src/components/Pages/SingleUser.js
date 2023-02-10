@@ -4,10 +4,8 @@ import users from '../../data'
 import '../../assets/css/style.css'
 function SingleUser() {
     const {userId} = useParams();
-    const {name, image, profession, age, language, country} 
-    = users.find( (user) => {
-        return user.id === userId
-    });
+    const {name, image, profession, age, language, country} = users.find( (u) => u.id === Number(userId))
+    
   return (
     <>
         {/* <div>
