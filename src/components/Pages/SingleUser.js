@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
+import users from '../../data'
 function SingleUser() {
     const {userId} = useParams();
   return (
