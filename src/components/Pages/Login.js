@@ -13,7 +13,7 @@ const Login = ({setUser}) => {
         setUser ({
             userName,
             password
-        })
+        });
         console.log (userName, password);
     };
 
