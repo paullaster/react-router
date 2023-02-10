@@ -7,6 +7,8 @@ const Login = () => {
     const [userName, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
+    const handleSubmit = () => {};
+
   return (
     <Form>
         <InputWithLabel>Username</InputWithLabel>
