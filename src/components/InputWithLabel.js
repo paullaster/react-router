@@ -1,6 +1,9 @@
 import React from 'react'
 
 const InputWithLabel = ({setInputValue, type='text', children}) => {
+    const handleOnChange = (e) => {
+        setInputValue(e.target.value);
+    };
   return (
     <div className='input-group'>
         <label>
