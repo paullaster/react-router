@@ -12,7 +12,7 @@ function SingleUser() {
     <>
         <div>
             <span>
-                userId: {userId}
+                {name}
             </span>
         </div>
         <div>
