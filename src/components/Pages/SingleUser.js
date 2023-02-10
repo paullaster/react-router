@@ -4,7 +4,7 @@ import users from '../../data'
 import '../../assets/css/style.css'
 function SingleUser() {
     const {userId} = useParams();
-    const {name, image, profession, age, language, country} = users.find( (u) => u.id === Number(userId))
+    const user = users.find( (u) => u.id === Number(userId))
     
   return (
     <>
