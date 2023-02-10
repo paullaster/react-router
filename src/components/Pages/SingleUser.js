@@ -19,7 +19,13 @@ function SingleUser() {
             </span>
             <span>
                 {
-                    profession.map((profession) => {})
+                    profession.map((profession) => {
+                        return (
+                            <li key={profession}>
+                                {profession}
+                            </li>
+                        )
+                    })
                 }
             </span>
         </div>
