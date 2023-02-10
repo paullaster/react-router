@@ -6,8 +6,10 @@ const Users = () => {
   return (
    <div>
     {
-        users.map((user) =>{
+        users.map(({id, name, age, image, profession, country}) =>{
+            return(
 
+            )
         })
     }
    </div>
