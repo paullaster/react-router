@@ -5,7 +5,7 @@ import Footer from "../Footer";
 function SharedLayout() {
   return (
     <>
-        <Navbar/>
+      <Navbar/>
       <section>
         <Outlet/>
       </section>
