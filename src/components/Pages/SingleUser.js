@@ -4,7 +4,7 @@ import users from '../../data'
 function SingleUser() {
     const {userId} = useParams();
     const user = users.find( (user) => {
-        return users.id === userId
+        return user.id === userId
     })
   return (
     <>
