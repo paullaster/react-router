@@ -19,7 +19,7 @@ const Users = () => {
                     <span>
                         {country}
                     </span>
-                    <Link to={`users/${id}`}
+                    <Link to={`users/${id}`} >View user</Link>
                 </li>
             )
         })
