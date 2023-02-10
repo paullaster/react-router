@@ -4,7 +4,7 @@ const UserPage = ({users}) => {
   return (
     <div>
     {
-        users.map(({id, name, age, image, profession, country}) =>{
+        users.map(({id, name, image, country}) =>{
             return(
                 <li key={id}>
                     <span>
