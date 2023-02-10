@@ -14,7 +14,7 @@ const App = () => {
           <Route path="users/:userId" element={<SingleUser />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
-          <Route path="login" element={<Login />} />
+          <Route path="login" element={<Login setUser={setUser}/>} />
         </Route>
       </Routes>
     </BrowserRouter>
