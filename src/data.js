@@ -15,10 +15,10 @@ export const Users = [
     {
         name: 'Edward Odhiambo',
         Professions: [
-            "Software Engineer",
+            "Android Developer",
         ],
         id: uuid(),
-        email:'ispaullaster@gmail.com',
+        email:'isEdu@gmail.com',
         age: 26,
         country: 'Kenya',
         language: 'English',
