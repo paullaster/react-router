@@ -14,7 +14,7 @@ const Users = () => {
                         {name}
                     </span>
                     <span>
-                        {image}
+                        <img src={image} alt={image}/>
                     </span>
                     <span>
                         {country}
